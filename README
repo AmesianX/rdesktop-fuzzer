@@ -37,7 +37,7 @@ Invocation
 ----------
 Simply run::
 
-	% rdesktop server
+	% while true; do ./rdesktop <ip address> <options>; done
 
 where server is the name of the Terminal Services machine.  (If you receive
 "Connection refused", this probably means that the server does not have
